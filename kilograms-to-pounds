@@ -1,0 +1,17 @@
+<?php 
+// number of kilograms we want to convert into pounds
+$kilograms = 220;
+
+// floating point value for the kilogram to pound conversion
+$kg_to_lb = 2.20462;
+
+// use the variables above to calculate kilograms multiplied by the pound conversion
+$pounds = $kilograms * $kg_to_lb;
+
+// display the kilograms to pounds
+echo "Weight: ";
+echo $kilograms;
+echo " kg = ";
+echo $pounds;
+echo " lb";
+?>
