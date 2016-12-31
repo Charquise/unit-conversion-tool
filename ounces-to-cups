@@ -1,0 +1,17 @@
+<?php 
+// numbers in ounces we want to convert into cups
+$ounces = 32;
+
+// floating point value for the ounces to cups conversion
+$oz_to_cups = 0.125;
+
+// use the variables above to calculate ounces multiplied by the cups conversion
+$cups = $ounces * $oz_to_cups;
+
+// display the ounces to cups
+echo "Fluid ounces: ";
+echo $ounces;
+echo " oz = ";
+echo $cups;
+echo " cups";
+?>
