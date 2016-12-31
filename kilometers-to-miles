@@ -1,0 +1,17 @@
+<?php
+// number of kilometers we want to convert into miles
+$kilometers = 160;
+
+// floating point value for the kilometer to miles conversion
+$km_to_mile = 0.621371;
+
+// use the variables above to calculate kilometers multiplied by the mile conversion
+$miles = $kilometers * $km_to_mile;
+
+// display the kilometers to miles
+echo "Distance: ";
+echo $kilometers;
+echo " km = ";
+echo $miles;
+echo " miles";
+?>
